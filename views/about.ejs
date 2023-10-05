@@ -1,0 +1,32 @@
+<!--about.ejs Cole Ramsey 301333287 10-05-2023-->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to my <%= title %> page</h1>
+      
+    </div>
+
+    <div class="pgbody">
+
+        <div class="aboutme">
+        <img src="/Assets/images/selfie.jpg" alt="Cole Ramsey Headshot" height="300" width="300" class="profile-image">
+        <div>
+            <h2>About Me</h2>
+            <p>Hi! I'm Cole Ramsey. I'm a passionate student of software engineering with growing expertise in web and mobile development, programming
+                and algorithms. Starting this semester, I've begun down the path of learning more about Artificial Intelligence, and hope to
+                gain a sense of prowess on the subject in order to better my personal understanding and career goals.
+            </p>
+        <!-- Link to Resume -->
+        <a href="/Assets/crresume.pdf" target="_blank">View My Resume</a>
+        </div>
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>

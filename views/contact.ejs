@@ -1,0 +1,47 @@
+<!--contact.ejs Cole Ramsey 301333287 10-05-2023-->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to my <%= title %> page</h1>
+      
+    </div>
+    <div class="pgbody">
+        
+
+        <!-- Contact Info Panel -->
+        <div class="contact-info-panel">
+            <h4>Contact Information</h4>
+            Email: cramsey1@my.centennialcollege.ca<br>
+            Phone: +1-561-485-7331<br>
+        </div>
+
+        <!-- Contact Form -->
+        <form action="/submit-contact-form" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+        
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+        
+            <label for="contactNumber">Contact Number:</label>
+            <input type="text" id="contactNumber" name="contactNumber" required>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>

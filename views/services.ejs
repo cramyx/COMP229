@@ -1,0 +1,47 @@
+<!--services.ejs Cole Ramsey 301333287 10-05-2023-->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to my <%= title %> page</h1>
+      
+    </div>
+    <div class="pgbody">
+        <div class="service-card">
+            <div>
+                <h2>Services</h2>
+                <p>I offer a range of technical services tailored to your needs. Explore my offerings below:</p>
+            </div>
+        </div>
+
+        <!-- Web Development Service -->
+        <div class="service-card">
+            <div>
+                <h2>Web Development</h2>
+                <p>Custom web applications tailored to your business needs, ensuring responsive design and optimized performance.</p>
+            </div>
+            <img src="/Assets/images/webdev.jpg" alt="Web Development Icon" height="400" width="650">
+        </div>
+        
+        <!-- General Programming Service -->
+        <div class="service-card">
+            <div>
+                <h2>General Programming</h2>
+                <p>Custom software solutions and automation scripts to enhance productivity and streamline operations.</p>
+            </div>
+          <img src="/Assets/images/prog.jpg" alt="General Programming Icon" height="400" width="650">
+        </div>
+      
+        <!-- Call to Action -->
+        <div class="cta-section">
+          <h3>Interested in working with me? <a href="/contact">Contact me</a> today to get started!</h3>
+        </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>

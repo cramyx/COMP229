@@ -1,0 +1,59 @@
+<!--projects.ejs Cole Ramsey 301333287 10-05-2023-->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to my <%= title %> page</h1>
+      
+    </div>
+    <div class="pgbody">
+        <h2>Highlighted Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project">
+            <img src="/Assets/images/project1ss.png" alt="Project 1" height="700" width="700">
+            <div>
+                <p><strong>Project Name:</strong> Course GPA Calculator</p>
+                <p><strong>Role:</strong> Developer</p>
+                <p><strong>Outcome:</strong> Successfully developed a C# application that calculates your Grade Point Average, as well
+                as showing the user information about average course grades for previous years. This was my final
+                project in my programming-2 class which dealt with programming in C#
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <img src="/Assets/images/project2ss.png" alt="Project 2" height="700" width="700">
+            <div>
+                <p><strong>Project Name:</strong> Real-Estate Agency Website</p>
+                <p><strong>Role:</strong> Developer</p>
+                <p><strong>Outcome:</strong> Successfully developed a mock website for a fake Real-Estate agency in my Web-Application-Development Class.
+                This was my final project which was developed with HTML and CSS, and included an agency home page, listings page,
+                 contact page, and a site map.
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+            <img src="/Assets/images/project3ss.png" alt="Project 3" height="700" width="700">
+            <div>
+                <p><strong>Project Name:</strong> My first homepage</p>
+                <p><strong>Role:</strong> Developer</p>
+                <p><strong>Outcome:</strong> Successfully developed my very first homepage in my Web-Application-Development class, which
+                served as my main hub for assignment linking in that course, as well as personal information about me.
+                This project was built with HTML.
+                </p>
+            </div>
+        </div>
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
